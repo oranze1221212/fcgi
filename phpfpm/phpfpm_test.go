@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/kellegous/fcgi"
+	"github.com/oranze1221212/fcgi"
 )
 
 func mustGetWd() string {
