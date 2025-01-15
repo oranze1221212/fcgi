@@ -1,3 +1,3 @@
 module github.com/kellegous/fcgi
 
-go 1.16
+go 1.23.4

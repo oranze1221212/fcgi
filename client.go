@@ -51,6 +51,10 @@ func NewClient(net, addr string, options ...ClientOption) (*Client, error) {
 	return c, nil
 }
 
+func (c *Client) Close() error {
+	return c.Close()
+}
+
 // WithDialTimeout creates a DialOption that sets the dial timeout.
 // The default is 60 seconds.
 func WithDialTimeout(timeout time.Duration) ClientOption {
